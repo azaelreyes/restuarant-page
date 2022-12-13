@@ -1,0 +1,163 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 0;
+    margin-left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Nav Bar Classes */
+.navBarDivClass{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100vw;
+    height: 60px;
+    line-height: 60px;
+    background-color:rgb(46, 65, 85);
+    color:white;
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: right;
+    z-index: 100;
+}
+.navBarButton{
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.navBarButton:hover{
+    background-color:darkcyan;
+}
+
+/* CSS for HOME ========================================= */
+.homeHeadingDiv{ /* Parent of .homeH1Class & .homeHeadingImg */
+    font-family: fantasy;
+    color: white;
+    position: relative;
+    
+}
+.homeH1Class{
+    font-size:800%;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+.homeH3Class{
+    font-size: 400%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.homeHeadingImg{
+    width: 100vw;
+}
+
+.homeDescription{  /* Parent of .mapClass & .descriptionParagraph */
+    width: 100vw;
+    height: 80vh;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+
+}
+.mapClass{
+    width: 90%;
+    height: 70%;
+    margin: 8% 4% 8% 8%;
+}
+
+.descriptionParagraph{
+    margin: 8% 8% 8% 4%;
+}
+
+
+
+
+/* Menu Classes ========================================= */
+
+.titleDiv{
+    padding-top: 5%;
+    height: 90vh;
+    position: relative;
+}
+.menuTitleH1{
+    padding-left: 5%;
+}
+.menuDiv{
+    justify-content: center;
+    width: 100vw;
+    display:flex;
+    
+
+}
+.column{
+    width: 40%;
+    margin: 2%;
+}
+
+/* About Classes =========================================*/
+.aboutMainDivClass{
+    padding-top: 10%;
+    padding-left: 5%;
+    height:10vh;
+}
+.aboutChildDiv{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.childItems{
+    width: 40%;
+    margin: 2%;
+}
+.aboutImg{
+    width: 100%;
+}
+
+/* Contact Classes =========================================*/
+.contactDiv{
+    padding-top: 5%;
+    height:60vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactMap{
+    width: 65vw;
+    height: 50vh;
+    margin: 5%
+}
+.textContact{
+    width: 35vw;
+    height: 50vh;
+    margin: 5%
+}
+
+/* Footer Classes =========================================*/
+.footerDiv{
+    height: 40vh;
+    background-color: rgb(46, 65, 85);
+    display: flex;
+    color:white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.footerCol{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
