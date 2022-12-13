@@ -99,7 +99,7 @@ function clearPage(){
 };
 
 navBar();
-contact();
+home();
 footer();
 
 
